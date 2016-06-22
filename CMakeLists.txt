@@ -1,0 +1,16 @@
+# Project Properties
+####################
+CMAKE_MINIMUM_REQUIRED (VERSION 2.6.2)
+
+SET(PROJECT_NAME click_apps_for_linux)
+PROJECT(${PROJECT_NAME})
+
+# This will be extended to take the version from SCM
+# Version config can be simplified from 3.0+
+SET(${PROJECT_NAME}_VERSION_MAJOR 1)
+SET(${PROJECT_NAME}_VERSION_MINOR 0)
+SET(${PROJECT_NAME}_VERSION_PATCH 0)
+SET(${PROJECT_NAME}_VERSION
+    ${${PROJECT_NAME}_VERSION_MAJOR}.${${PROJECT_NAME}_VERSION_MINOR}.${${PROJECT_NAME}_VERSION_PATCH})
+
+ADD_SUBDIRECTORY(src)
