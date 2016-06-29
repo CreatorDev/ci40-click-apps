@@ -10,7 +10,7 @@ Applications to show how mikro-e [sensor clicks](http://www.mikroe.com/add-on-bo
 
 Select Utilities -> click-apps -> application
 
-Then build OpenWrt in [usual way](https://github.com/IMGCreator/openwrt/).
+Then build OpenWrt in [usual way](https://github.com/CreatorDev/openwrt/).
 
 ###Application to detect motion using [motion click](http://www.mikroe.com/click/motion/)
 
