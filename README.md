@@ -18,9 +18,7 @@ After starting the app move your hand above the motion click.
 
 Press ctrl+c to exit the application.
 
-Two options can be given:
-
-1) mikroBUS number to specify where motion click is connected.
+mikroBUS number can be given in option to specify where motion click is connected.
 
 Default value for [mikroBUS](http://www.mikroe.com/mikrobus/) is 1
 
@@ -28,3 +26,14 @@ Default value for [mikroBUS](http://www.mikroe.com/mikrobus/) is 1
 
     Ready for detecting motion...
     detected
+
+###Application to display binary representation of a number using [bargraph click](http://www.mikroe.com/click/bargraph/)
+
+Start the app and enter number to display.
+
+mikroBUS number can be given in option to specify where bargraph click is connected.
+
+    $ bargraph_click_app -m <mikroBUS>
+
+    Enter number to display: 2
+	Enter number to display: 5
